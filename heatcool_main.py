@@ -15,7 +15,7 @@ def heat_cool(actualTemp, desiredTemp):
         return (f'Current temp is now {desiredTemp}')
     else:
         print('Standby..')
-        return (f'Current temp is now {desiredTemp}')
+        return (f'Settings have not changed. Current temp is still {desiredTemp}')
 # beginning prompt code
 name = input("Hello! What is your name? ")
 actual_temp = random.randint(-460,500)
